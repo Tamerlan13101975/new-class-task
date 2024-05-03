@@ -20,4 +20,6 @@ tasks.append(Task("Погулять с собакой", "Вечером"))
 tasks.append(Task("Успеть на тренеровку", "Вечером"))
 
 
-
+# Отмечаем выполненные задачи
+tasks[0].mark_as_done()
+tasks[2].mark_as_done()
