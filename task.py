@@ -23,3 +23,10 @@ tasks.append(Task("Успеть на тренеровку", "Вечером"))
 # Отмечаем выполненные задачи
 tasks[0].mark_as_done()
 tasks[2].mark_as_done()
+
+
+# Выводим список не выполненных задач
+print("Список не выполненных задач:")
+for task in tasks:
+    if not task.status:
+        print(task)
